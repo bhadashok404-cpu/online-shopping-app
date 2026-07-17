@@ -1,0 +1,38 @@
+.summary-card {
+
+    width: 320px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+
+    background: white;
+
+    position: sticky;
+
+    top: 100px;
+}
+
+.summary-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 15px 0;
+}
+
+.summary-total {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: #1976d2;
+}
