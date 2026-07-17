@@ -1,0 +1,21 @@
+.cart-container {
+
+    padding: 40px;
+}
+
+.cart-item {
+
+    width: 450px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .08);
+
+    background: white;
+}
