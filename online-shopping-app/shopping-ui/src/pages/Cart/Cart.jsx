@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Cart.css";
+import "../../components/CartItem/CartItem.css";
 import { useCart } from "../../context/CartContext";
 import { toast } from "react-toastify";
 
@@ -104,92 +105,73 @@ function Cart() {
   }
 
   return (
-    <div
-      className="cart-container"
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "flex-start",
-        gap: "40px",
-      }}
-    >
+    <div className="cart-page">
       {/* Left Section */}
-      <div style={{ flex: 1 }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: "25px",
-          }}
-        >
-          <h1>Shopping Cart</h1>
+      <div className="cart-content">
+        <div className="cart-header">
+          <div>
+            <p className="cart-eyebrow">Your bag</p>
+            <h1>Shopping Cart</h1>
+          </div>
 
           {cartItems.length > 0 && (
-            <button
-              onClick={handleClearCart}
-              style={{
-                background: "#ef4444",
-                color: "#fff",
-                border: "none",
-                padding: "12px 18px",
-                borderRadius: "10px",
-                cursor: "pointer",
-                fontWeight: "600",
-              }}
-            >
+            <button className="clear-cart-btn" onClick={handleClearCart}>
               🧹 Clear Cart
             </button>
           )}
         </div>
 
         {cartItems.length === 0 ? (
-          <h3>Your cart is empty.</h3>
+          <div className="empty-state">
+            <h3>Your cart is empty.</h3>
+            <p>Add a few favorites and they’ll appear here.</p>
+          </div>
         ) : (
-          cartItems.map((item) => (
-            <div className="cart-item" key={item.id}>
-              <h2>{item.productName}</h2>
+          <div className="cart-list">
+            {cartItems.map((item) => (
+              <div className="cart-item-card" key={item.id}>
+                <div className="cart-item-main">
+                  <div className="cart-item-info">
+                    <span className="cart-item-badge">In your cart</span>
+                    <h2>{item.productName}</h2>
 
-              <p>
-                <strong>Price:</strong> ₹ {item.price}
-              </p>
+                    <div className="cart-item-meta">
+                      <p>
+                        <strong>Price:</strong> ₹ {item.price}
+                      </p>
+                      <p>
+                        <strong>Total:</strong> ₹ {item.totalPrice}
+                      </p>
+                    </div>
+                  </div>
 
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
-                  margin: "15px 0",
-                }}
-              >
-                <button onClick={() => decreaseQuantity(item)}>-</button>
+                  <div className="cart-item-actions">
+                    <div className="quantity-controls">
+                      <button
+                        className="quantity-btn"
+                        onClick={() => decreaseQuantity(item)}
+                      >
+                        -
+                      </button>
 
-                <strong>{item.quantity}</strong>
+                      <span className="quantity-value">{item.quantity}</span>
 
-                <button onClick={() => increaseQuantity(item)}>+</button>
+                      <button
+                        className="quantity-btn"
+                        onClick={() => increaseQuantity(item)}
+                      >
+                        +
+                      </button>
+                    </div>
+
+                    <button className="remove-btn" onClick={() => removeItem(item.id)}>
+                      🗑 Remove
+                    </button>
+                  </div>
+                </div>
               </div>
-
-              <p>
-                <strong>Total:</strong> ₹ {item.totalPrice}
-              </p>
-
-              <button
-                onClick={() => removeItem(item.id)}
-                style={{
-                  marginTop: "15px",
-                  background: "#ef4444",
-                  color: "#fff",
-                  border: "none",
-                  padding: "10px 16px",
-                  borderRadius: "8px",
-                  cursor: "pointer",
-                  fontWeight: "600",
-                }}
-              >
-                🗑 Remove
-              </button>
-            </div>
-          ))
+            ))}
+          </div>
         )}
       </div>
 

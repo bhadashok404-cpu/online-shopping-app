@@ -1,18 +1,24 @@
 .home-container {
-    padding: 40px;
-    max-width: 1400px;
-    margin: auto;
+  padding: 20px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .page-title {
-    margin-bottom: 30px;
-    color: #1976d2;
-    font-size: 34px;
-    font-weight: bold;
+  margin-bottom: 30px;
+  color: #1976d2;
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 24px;
+  }
 }

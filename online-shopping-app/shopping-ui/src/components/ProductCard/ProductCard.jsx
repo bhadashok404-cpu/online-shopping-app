@@ -24,15 +24,19 @@ function ProductCard({ product }) {
 
   return (
     <div className="product-card">
+      <span className="product-badge">Featured</span>
       <div className="product-image">💻</div>
 
       <h2>{product.name}</h2>
 
       <p className="description">{product.description}</p>
 
-      <div className="price">₹ {product.price}</div>
-
-      <div className="stock">Stock : {product.stock}</div>
+      <div className="product-footer">
+        <div>
+          <div className="price">₹ {product.price}</div>
+          <div className="stock">Stock : {product.stock}</div>
+        </div>
+      </div>
 
       <button onClick={handleAddToCart}>Add To Cart</button>
     </div>
