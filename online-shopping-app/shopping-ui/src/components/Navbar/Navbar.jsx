@@ -8,7 +8,8 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="logo">
-        🛍 <span>ShopEase</span>
+        <span className="logo-icon">🛍</span>
+        <span>ShopEase</span>
       </div>
 
       <nav className="nav-links">

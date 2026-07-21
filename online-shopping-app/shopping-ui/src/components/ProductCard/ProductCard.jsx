@@ -3,7 +3,7 @@ import { addToCart } from "../../services/cartApi";
 import { useCart } from "../../context/CartContext";
 import { toast } from "react-toastify";
 
-function ProductCard({ product }) {
+function ProductCard({ product, onEdit, onDelete }) {
   const { loadCartCount } = useCart();
 
   const handleAddToCart = async () => {
@@ -24,17 +24,30 @@ function ProductCard({ product }) {
 
   return (
     <div className="product-card">
+      <span className="product-badge">Featured</span>
       <div className="product-image">💻</div>
 
       <h2>{product.name}</h2>
 
       <p className="description">{product.description}</p>
 
-      <div className="price">₹ {product.price}</div>
+      <div className="product-footer">
+        <div>
+          <div className="price">₹ {product.price}</div>
+          <div className="stock">Stock : {product.stock}</div>
+        </div>
+      </div>
 
-      <div className="stock">Stock : {product.stock}</div>
+      <div className="product-actions">
+        <button type="button" className="secondary-btn" onClick={() => onEdit(product)}>
+          Edit
+        </button>
+        <button type="button" className="danger-btn" onClick={() => onDelete(product.id)}>
+          Delete
+        </button>
+      </div>
 
-      <button onClick={handleAddToCart}>Add To Cart</button>
+      <button type="button" onClick={handleAddToCart}>Add To Cart</button>
     </div>
   );
 }
