@@ -24,15 +24,16 @@
     box-sizing: border-box;
 }
 
+html, body, #root {
+    height: 100%;
+}
+
 body {
-
     font-family: "Poppins", sans-serif;
-
     background: linear-gradient(135deg, #eef2ff, #f8fafc);
-
     color: var(--text);
-
-    min-height: 100vh;
+    height: 100%;
+    overflow: hidden; /* prevent page-level scroll; product area will handle scrolling */
 }
 
 button {
