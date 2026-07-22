@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "A:\\online-shopping-app\\online-shopping-app\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\DTOs\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "shopping-api\\DTOs\\CartItemDto.cs",
+              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\DTOs\\CartItemDto.cs",
+              "RelativeToolTip": "shopping-api\\DTOs\\CartItemDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA4wA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:15:16.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "shopping-api\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "shopping-api\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:15:12.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "shopping-api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "shopping-api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T13:15:08.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
