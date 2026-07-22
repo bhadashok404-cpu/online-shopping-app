@@ -1,122 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "A:\\online-shopping-app\\online-shopping-app\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|a:\\online-shopping-app\\online-shopping-app\\shopping-api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3072669-E765-0727-4A59-F2AFB04E4698}|shopping-api\\shopping-api.csproj|solutionrelative:shopping-api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CartItemDto.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\DTOs\\CartItemDto.cs",
-              "RelativeDocumentMoniker": "shopping-api\\DTOs\\CartItemDto.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\DTOs\\CartItemDto.cs",
-              "RelativeToolTip": "shopping-api\\DTOs\\CartItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:43:12.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "shopping-api\\Services\\ProductService.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Services\\ProductService.cs",
-              "RelativeToolTip": "shopping-api\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywBgAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:43:08.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "shopping-api\\Models\\Product.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Models\\Product.cs",
-              "RelativeToolTip": "shopping-api\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:43:01.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "shopping-api\\Repositories\\ProductRepository.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "shopping-api\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:43:04.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "shopping-api\\Models\\CartItem.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Models\\CartItem.cs",
-              "RelativeToolTip": "shopping-api\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:43:00.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "shopping-api\\Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "A:\\online-shopping-app\\online-shopping-app\\shopping-api\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "shopping-api\\Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T06:42:57.451Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
